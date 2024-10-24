@@ -1,0 +1,59 @@
+class Main {
+  public static void main(String[] args) {
+
+  /*****************
+  * FOR LOOP NOTES *
+  ******************
+    For loops allow you to set all the parameters
+    of the loop in one line. This makes it easy 
+    to set how many times the loop repeats, where
+    it starts, and where it ends.
+
+  For Loop Parameters:
+  1st: Loop variable (int)
+  2nd: Loop condition. Loop continues while the condition is true.
+  3rd: increment/decrement. How much to change the loop variable after each iteration of the loop.
+  */
+
+  // Repeat a line of code ten times
+  for( int x = 0; x < 10; x++ ){
+    //repeat this
+    System.out.println("it worked!");
+  }
+
+  // Use loop variable in body of loop
+  for( int i = 0; i < 10; i++){
+    System.out.print(i);
+  }
+  System.out.println(); //space between examples
+
+  // Same as above with spaces added
+  for( int i = 0; i < 10; i++ ){
+    System.out.print(i + " ");
+  }
+  System.out.println(); //space between examples
+
+  // Start or end at any number you want
+  for( int i = 8; i > -2; i--){
+    System.out.print(i + " ");
+  }
+  System.out.println(); //space between examples
+
+  // Increment by any amount
+  for( int i = 3; i <= 33; i += 3){
+    System.out.print(i + " ");
+  }
+  System.out.println(); //space between examples
+  //Do math with the loop variable
+  //For example: sum all the numbers from 0-100
+  int sum = 0;
+  for( int i = 1; i <= 100; i++ ){
+    sum += i;
+  }
+  System.out.println(sum);
+
+  // NESTED FOR LOOPS
+  
+
+  }
+}
